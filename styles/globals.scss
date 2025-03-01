@@ -1,0 +1,109 @@
+// Importar Bulma
+@import '~bulma/bulma';
+
+// Estilos globales
+body {
+    font-family: 'Arial', sans-serif; // Cambia la fuente si lo deseas
+    background-color: #e6f7ff; // Color de fondo claro (azul claro)
+    color: #333; // Color de texto oscuro
+    margin: 0; // Eliminar márgenes por defecto
+    padding: 0; // Eliminar relleno por defecto
+    line-height: 1.6; // Mejorar la legibilidad
+}
+
+// Estilos para encabezados
+h1, h2, h3, h4, h5, h6 {
+    margin: 0; // Eliminar márgenes por defecto
+    padding: 0; // Eliminar relleno por defecto
+}
+
+// Estilos para enlaces
+a {
+    color: #4A90E2; // Color de enlace (azul)
+    text-decoration: none; // Eliminar subrayado
+    transition: color 0.3s ease; // Transición suave para cambios de color
+}
+
+a:hover {
+    color: #50E3C2; // Color al pasar el ratón (verde)
+}
+
+// Estilos para botones
+.button {
+    border-radius: 4px; // Bordes redondeados
+    font-size: 1rem; // Tamaño de fuente
+    padding: 0.75rem 1.25rem; // Relleno para botones
+    transition: background-color 0.3s ease; // Transición suave para cambios de color
+}
+
+.button.is-primary {
+    background-color: #4A90E2; // Color de fondo primario
+    border-color: #4A90E2; // Color del borde
+}
+
+.button.is-primary:hover {
+    background-color: #3273dc; // Color de fondo al pasar el ratón
+}
+
+// Estilos para formularios
+.input, .textarea, .select {
+    border-radius: 4px; // Bordes redondeados
+    font-size: 1rem; // Tamaño de fuente
+    padding: 0.75rem; // Relleno para campos de entrada
+    border: 1px solid #ccc; // Borde gris claro
+}
+
+.input:focus {
+    border-color: #4A90E2; // Color del borde al enfocar
+}
+
+// Estilos para el contenedor principal
+.container {
+    max-width: 800px; // Ancho máximo para el formulario
+    margin: 0 auto; // Centrar el contenedor
+    padding: 1rem; // Relleno
+    background-color: transparent; // Asegurarse de que el fondo sea transparente
+}
+
+// Estilos para el pie de página
+footer {
+    background-color: #f1f1f1; // Fondo gris claro
+    text-align: center; // Centrar texto
+    padding: 1rem; // Relleno
+    position: relative; // Posición relativa para el pie de página
+    bottom: 0; // Alinear al fondo
+    width: 100%; // Ancho completo
+}
+
+// Estilos para mensajes de error
+.has-text-danger {
+    color: #D0021B; // Color rojo para mensajes de error
+}
+
+// Estilos para el contenedor de formularios
+.box {
+    padding: 2rem; // Relleno para el contenedor del formulario
+    border-radius: 8px; // Bordes redondeados
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Sombra sutil
+    background-color: #fff; // Fondo blanco
+}
+
+// Estilos para botones grandes
+.buttons {
+    margin-top: 1rem; // Espaciado superior para botones
+}
+
+// Estilos para el título de formularios
+.title {
+    margin-bottom: 1.5rem; // Espaciado inferior para títulos
+    color: #4A90E2; // Color del título
+}
+.navbar-item:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente al pasar el ratón */
+    color: #50E3C2; /* Color de texto al pasar el ratón (verde) */
+}
+
+.menu-list .navbar-item:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente al pasar el ratón */
+    color: #50E3C2; /* Color de texto al pasar el ratón (verde) */
+}
